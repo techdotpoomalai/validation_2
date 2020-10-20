@@ -121,3 +121,8 @@ social div
         border-radius: 15px;
         color: brown;
     }
+.fb_mention
+    {
+        border: 5px double red;
+        
+    }

@@ -105,7 +105,7 @@ function setSuccess(input)
         const email=document.getElementById('email');
         const password=document.getElementById('password');
         const passwordcheak=document.getElementById('passwordcheak');
-        
+                
         switch(input)
         {
             case "user_name":
@@ -121,6 +121,8 @@ function setSuccess(input)
                 var form_control=passwordcheak.parentElement;
                 break;
         }
-        form_control.className='form_control succes'        //selected tag added succes class
+        var c=form_control.className='form_control success';        //selected tag added succes class
     }
+
+
 
